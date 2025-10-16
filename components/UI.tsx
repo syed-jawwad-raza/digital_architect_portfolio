@@ -29,7 +29,9 @@ const UI: React.FC = () => {
                 <div style={{
                     position: 'absolute',
                     top: '800vh',
-                    width: '100%',
+                    // left: '50%',
+                    // transform: 'translateX(-50%)',
+                    maxWidth: '1000px',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
